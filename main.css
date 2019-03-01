@@ -1,30 +1,21 @@
-.row {
-    display: flex;
-    flex-wrap: row;
-}
-.column {
-
+.container {
+    width: 350px;
 }
 
 div {
-    border: 20px ;
+    border: 1px solid lightblue;
     box-shadow: 1px 5px 5px lightblue; 
 
-}
-
-div > header {
-    border: 1px solid lightblue;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-
-}
 h2 {
     text-align: center;
+
+}
+img {
+    display: block;
+    margin: auto;
 }
 
 h3 {
     background-color: grey;
+    color: yellow;
 }
