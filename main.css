@@ -1,0 +1,30 @@
+.row {
+    display: flex;
+    flex-wrap: row;
+}
+.column {
+
+}
+
+div {
+    border: 20px ;
+    box-shadow: 1px 5px 5px lightblue; 
+
+}
+
+div > header {
+    border: 1px solid lightblue;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+
+}
+h2 {
+    text-align: center;
+}
+
+h3 {
+    background-color: grey;
+}
