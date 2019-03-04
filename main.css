@@ -1,11 +1,26 @@
-.container {
-    width: 350px;
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: auto;
+}
+
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    min-width: 350px;
+    max-width: 400px;
+    flex: 1 1 33%;
+    margin: 5px;
+    width: 30%;
+
 }
 
 div {
     border: 1px solid lightblue;
-    box-shadow: 1px 5px 5px lightblue; 
-
+    box-shadow: 1px 1px 5px lightblue; 
+}
 h2 {
     text-align: center;
 
@@ -18,4 +33,12 @@ img {
 h3 {
     background-color: grey;
     color: yellow;
+}
+.description {  
+    padding: 8px;
+    text-align: justify;
+}
+
+.price {
+    font-weight: bold;
 }
