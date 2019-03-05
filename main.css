@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: auto;
+}
+
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    min-width: 350px;
+    max-width: 400px;
+    flex: 1 1 33%;
+    margin: 5px;
+    width: 30%;
+
+}
+
+div {
+    border: 1px solid lightblue;
+    box-shadow: 1px 1px 5px lightblue; 
+}
+h2 {
+    text-align: center;
+
+}
+img {
+    display: block;
+    margin: auto;
+}
+
+h3 {
+    background-color: grey;
+    color: yellow;
+}
+.description {  
+    padding: 8px;
+    text-align: justify;
+}
+
+.price {
+    font-weight: bold;
+    margin: 0px;
+    text-indent: 2em;
+}
+.valid-date {
+    font-size: 12px;
+}
+h4 {
+    margin: 0%;
+    text-indent: 1em;
+}
+p {
+    font-family: 'quicksand', sans-serif;
+    margin: 0px;
+}
+.sold-out {
+    position: absolute;
+    top: 12px;
+}
+.out {
+    text-decoration: line-through;
+    color: red;
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        background-color: lightslategray;
+    }
+
+}
