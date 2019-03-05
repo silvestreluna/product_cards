@@ -55,9 +55,18 @@ p {
     font-family: 'quicksand', sans-serif;
     margin: 0px;
 }
+.sold-out {
+    position: absolute;
+    top: 12px;
+}
+.out {
+    text-decoration: line-through;
+    color: red;
+}
 
 @media screen and (max-width: 650px) {
     body {
         background-color: lightslategray;
     }
+
 }
