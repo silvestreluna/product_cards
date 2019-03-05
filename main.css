@@ -41,4 +41,23 @@ h3 {
 
 .price {
     font-weight: bold;
+    margin: 0px;
+    text-indent: 2em;
+}
+.valid-date {
+    font-size: 12px;
+}
+h4 {
+    margin: 0%;
+    text-indent: 1em;
+}
+p {
+    font-family: 'quicksand', sans-serif;
+    margin: 0px;
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        background-color: lightslategray;
+    }
 }
