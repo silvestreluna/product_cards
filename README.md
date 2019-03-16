@@ -2,7 +2,7 @@
 Products for sale.
 
 ## Screenshot
-![Product Cards page]()
+![Product Cards page](https://raw.githubusercontent.com/silvestreluna/product_cards/master/img/product_card.png)
 
 ## Getting Started
 ```
